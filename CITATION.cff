@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: "AudioLight Toolkit Demo (Research Reproducibility Pack)"
+message: "If you use this software, please cite it using the metadata in this file."
+type: software
+authors:
+  - name: "40HzAD Maintainers"
+repository-code: "https://github.com/catiglu/audiolight-toolkit-demo"
+license: "MulanPSL-2.0"
+preferred-citation:
+  type: software
+  title: "AudioLight Toolkit Demo (Research Reproducibility Pack)"
+  authors:
+    - name: "40HzAD Maintainers"
+  year: 2026
+  url: "https://github.com/catiglu/audiolight-toolkit-demo"

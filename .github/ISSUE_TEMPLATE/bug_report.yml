@@ -1,0 +1,33 @@
+name: Bug report
+description: Report a defect or unexpected behaviour (do not include PHI/PII)
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Research Use Only. Not for clinical use.**
+
+        Do not include any personal data, PHI/PII, medical records, or identifiers in this report.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the bug and expected behaviour.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Provide minimal steps to reproduce.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Device model (if applicable), OS version, app version/commit, Python version, etc.
+    validations:
+      required: false

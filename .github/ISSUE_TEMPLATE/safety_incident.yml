@@ -1,0 +1,33 @@
+name: Safety incident report
+description: Report a potential adverse event related to audio/visual stimulation (no identifiers)
+title: "[Safety]: "
+labels:
+  - safety
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If you are experiencing an emergency or severe symptoms, stop immediately and seek professional medical assistance.
+
+        **Do not include any personal identifiers, PHI/PII, or participant data in this report.**
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What happened? Include timing and severity.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What stimulus settings, duration, and device were used?
+    validations:
+      required: false
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Device model, OS version, app version/commit.
+    validations:
+      required: false

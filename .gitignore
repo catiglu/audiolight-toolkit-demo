@@ -1,0 +1,23 @@
+# Gradle / Android
+.gradle/
+**/build/
+local.properties
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+*.wav
+
+# Third-party materials (do not publish)
+third_party_pdfs/

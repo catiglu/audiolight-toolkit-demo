@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AudioLight Toolkit Demo</string>
+    <string name="research_use_only_banner">AudioLight Toolkit Demo — RESEARCH USE ONLY — NOT FOR CLINICAL USE</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="export">Export CSV</string>
+    <string name="status_idle">Status: idle</string>
+    <string name="status_running">Status: running</string>
+</resources>
