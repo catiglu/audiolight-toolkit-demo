@@ -24,3 +24,6 @@ third_party_pdfs/
 
 # Internal planning artifacts (do not publish)
 docs/superpowers/
+
+# Local backup (do not publish)
+docs_local_backup/
