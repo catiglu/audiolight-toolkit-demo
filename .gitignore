@@ -21,3 +21,6 @@ venv/
 
 # Third-party materials (do not publish)
 third_party_pdfs/
+
+# Internal planning artifacts (do not publish)
+docs/superpowers/
